@@ -19,6 +19,9 @@ Edit files using this exact format:
 ```lang
 replacement lines
 ````
+
+- Use the website "copy" button after the response is generated
+- Use tampermonkey script button in bottom-right corner to parse and check that it runs in terminal log
 ---
 Simple test:
 
