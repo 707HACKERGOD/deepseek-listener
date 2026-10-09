@@ -19,3 +19,23 @@ Edit files using this exact format:
 ```lang
 replacement lines
 ````
+---
+Simple test:
+
+````markdown
+Reverse color order.
+Edit files using this exact format:
+[FILE: relative/path.ext]
+[REPLACE_FROM: first line of section to replace, verbatim]
+[REPLACE_TO: last line of section to replace, verbatim]
+```lang
+replacement lines
+````
+````markdown
+# test.py
+print("Red")
+print("Orange")
+print("Yellow")
+print("Green")
+print("Blue")
+````
