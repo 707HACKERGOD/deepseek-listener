@@ -2,7 +2,11 @@
 Minimal parser from chat.deepseek to VS code
 
 Setup:
-- Add listener.js to the VS code project folder
+- Add listener.js to the VS code project folder root
+- run in terminal with
+````markdown
+node listener.js
+````
 - Add and enable the tampermonkey script
 - Attach project files to chat.deepseek in a single txt that mentions the addresses of the files. To generate a txt out of the full project use your own script or my example for godot
 - Add instruction to format the response with the regex:
